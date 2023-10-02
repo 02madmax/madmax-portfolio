@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
+//my about me page that will be updated later to include more information and custom styling
 const AboutMe = () => {
     return (
         <Container className="mt-5">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';  // Using Font Awesome icons for the social links
+import { FaGithub, FaLinkedin } from 'react-icons/fa'; // font awesome icons for github and linkedin
 
 const Footer = () => {
     return (

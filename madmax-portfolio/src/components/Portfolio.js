@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Portfolio = () => {
-    // Sample data for your projects
+    // store your projects' data in an array of objects
     const projects = [
         {
             title: "Weather Dashboard",
@@ -25,9 +25,9 @@ const Portfolio = () => {
             liveUrl: "https://02madmax.github.io/PWGenerator/",
             githubUrl: "https://github.com/02madmax/PWGenerator"
         }
-        // ... add more projects here
     ];
 
+    //this is the JSX that will be rendered, it maps over the projects array and creates a card for each project
     return (
         <Container className="mt-5">
             <h2>My Portfolio</h2>

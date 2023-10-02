@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+// use react-router-dom to create routes for the different pages of the portfolio
 function App() {
     return (
         <Router>

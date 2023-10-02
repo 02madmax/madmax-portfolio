@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+// The Header component is a Bootstrap Navbar component with a dark background and light text, the Navbar is integrated into the header of the page instead of being a separate component
 const Header = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
